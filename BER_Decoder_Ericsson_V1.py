@@ -23,8 +23,7 @@ output=foo.decode('MeasDataCollection', content,check_constraints=False) # outpu
 for keys in output:
     output_Directory.write(str(keys)+str(output[keys])+" "+"\n")
 
-
-########## Running time of the Script ##############
+########## Running time of the Script #############
 Running_time=time.time() - start_time_total
 print("Runnning_time is: "+ str(Running_time) +" "+"seconds")
 
